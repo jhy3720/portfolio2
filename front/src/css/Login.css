@@ -1,0 +1,99 @@
+.Login {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  
+  .Login-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Login-logo {
+      animation: Login-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Login-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Login-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Login-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Login .header{
+    position: absolute;
+    top: 5%;
+    color:black;
+    width:98%;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .Login .header button{
+    text-align: center;
+    background-color: transparent;
+    border: 1rem;
+    cursor: pointer;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .loginform{
+    width: 20%;
+    margin: auto;
+    display: block;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 2rem;
+  }
+  
+  .loginform .formgroup{
+    margin-bottom: 1rem;
+  }
+  
+  .loginform label{
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .loginform input{
+    width: 90%;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .loginform input:focus{
+    border: 1px solid #719ece;
+    box-shadow: 0 0 10px #719ece;
+  }
+  
+  .loginform button{
+    width: 90%;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #f78b00;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }

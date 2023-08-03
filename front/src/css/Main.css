@@ -1,0 +1,157 @@
+.Main {
+  text-align: center;
+}
+
+.Main-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logo {
+    animation: Main-logo-spin infinite 20s linear;
+  }
+}
+
+.Main-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Main-link {
+  color: #61dafb;
+}
+
+@keyframes Main-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*header*/
+.Main .header{
+  position: absolute;
+  top: 0;
+  color:black;
+  width:98%;
+  padding:1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Main .header button{
+  background-color: transparent;
+  border: 1rem;
+  cursor: pointer;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.Main .header .search {
+  width: 30%;
+  padding: 0.5rem;
+
+}
+.Main .header .search input{
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.Main .header .search input:focus{
+  border: 1px solid #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.Main .header h1 button{
+  font-size: 3rem;
+  font-weight: bold;
+}
+/*coverflex*/
+
+.coverflow-container {
+  position: absolute;
+  display: flex;
+  top: 10%;
+  width: 100%;
+  height: 30rem;
+  perspective: 1000px;
+  margin: 3rem 0;
+}
+
+.image-container {
+  position: absolute;
+  top: 15%;
+  left: 43%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.selected {
+  z-index: 1;
+}
+
+.coverflow-container button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.coverflow-container button img{
+  width: 12rme;
+  height: 18rem;
+}
+
+
+.coverflow-container button:focus {
+  outline: none;
+}
+
+/* Additional styling for the buttons */
+.coverflow-container button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #ebebeb;
+  color: #333;
+}
+
+
+/*content*/
+.Main .content{
+  position: fixed;
+  top: 70%;
+  left: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 33%;
+  padding: 2rem;
+  background-color: #fff;
+  margin-right: 5%;
+}
+.Main .content button{
+  cursor: pointer;
+  background-color: white;
+  border:0px;
+}
+.Main .content button img{
+  width: 5rem;
+  height: 5rem;
+
+}

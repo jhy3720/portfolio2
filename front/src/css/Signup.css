@@ -1,0 +1,88 @@
+.Signup{
+    margin-top: 10%;
+}
+
+.Signup h1{
+    position: absolute;
+    top : 7%;
+    left: 45%;
+}
+
+.Signup h1 button{
+    background-color: transparent;
+    border: 1rem;
+    cursor: pointer;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.Signup .law{
+    position: absolute;
+    left: 24%;
+    width: 25rem;
+    height: 35rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.law label{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.law h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.law p{
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 24rem;
+    height: 30rem;
+    overflow: auto;
+
+}
+
+.Signup .inf{
+    margin-left: 50%;
+    width: 25rem;
+    height: 35rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.Signup .inf label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    margin: 0.1rem;
+}
+
+.Signup .inf input{
+    width: 90%;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.Signup input:focus{
+    border: 1px solid #719ece;
+    box-shadow: 0 0 10px #719ece;
+}
+
+.Signup .inf button{
+    width: 90%;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 5%;
+    background-color: #f78b00;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
