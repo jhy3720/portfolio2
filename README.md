@@ -1,6 +1,5 @@
 ### ※개발중※
-# React, TypeScript을 이용한 웹사이트 
-
+# React, TypeScript을 이용한 이력서 관리 사이트
 
 ## 화면
 
